@@ -1,8 +1,9 @@
 public class HelloWorld {
     public static void main(String... args){
-        boolean bool1=true;
-        boolean bool2=false;
-        boolean estCeQueCestVrai=!bool1|bool2;
-        System.out.println(estCeQueCestVrai);
+        int x = 8;
+        int y = 10;
+        boolean b;
+        b = (x > 6) ^ (x < 10);
+        System.out.println(b);
     }
 }
